@@ -1,0 +1,226 @@
+body {
+   font-family: 'Consolas', 'Courier New', monospace; 
+}
+
+.nama{
+    width: 100%;
+    margin-top: -10px;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 14sp;
+    color: white;
+    border: 1px solid;
+    background-color: #E9967A;
+}
+
+nav
+{
+    width: 100%;
+    position: sticky;
+}
+
+.segitiga
+{
+    padding: 10px;
+    text-align: center;
+    font-size: 14sp;
+    color: white;
+    border: 1px solid;
+    background-color: #E9967A;
+}
+
+.jajargenjang
+{
+    padding: 10px;
+    text-align: center;
+    font-size: 14sp;
+    color: #e9967a;
+    
+}
+
+.segitiga:hover
+{
+    background-color: darkgray;
+}
+
+.jajargenjang:hover
+{
+    background-color: darkgray;
+}
+
+.luasjudul
+{
+    margin-top: 40px;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    border: 1px solid;
+    background-color: #e9967a;
+}
+
+.luas
+{
+    padding: 30px;
+    font-size: 14sp;
+    color: black;
+    border: 1px solid #e9967a;
+}
+
+.rumus {
+    display: inline-block;
+    text-align: center;
+    margin: 20px; 
+    color: white;
+    border: 10px solid #E9967A;
+    background-color: #E9967A;
+}
+
+.poinKeterangan{
+    margin-left: 30px;
+}
+
+.small-line {
+    border-bottom: 1px solid #E9967A;
+}
+
+.luas2{
+    padding: 30px;
+    font-size: 14sp;
+    color: black;
+    border: 1px solid #e9967a;
+}
+
+.judulHitung{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px; 
+    color: white;
+    border: 10px solid #E9967A;
+    background-color: #E9967A;
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+}
+
+.button {
+    background-color: #E9967A; /* Add a semicolon at the end */
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.reset-button {
+    background-color: #f44336; 
+}
+
+
+
+
+
+.kelilingjudul
+{
+    margin-top: 40px;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    border: 1px solid;
+    background-color: #e9967a;
+}
+
+.keliling
+{
+    padding: 30px;
+    font-size: 14sp;
+    color: black;
+    border: 1px solid #e9967a;
+}
+
+.rumusKeliling {
+    display: inline-block;
+    text-align: center;
+    margin: 20px; 
+    color: white;
+    border: 10px solid #E9967A;
+    background-color: #E9967A;
+}
+
+.poinKeterangan2{
+    margin-left: 30px;
+}
+
+.small-line {
+    border-bottom: 1px solid #E9967A;
+}
+
+.luas3{
+    padding: 30px;
+    font-size: 14sp;
+    color: black;
+    border: 1px solid #e9967a;
+}
+
+.judulHitung2{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px; 
+    color: white;
+    border: 10px solid #E9967A;
+    background-color: #E9967A;
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+}
+
+.button2 {
+    background-color: #E9967A; /* Add a semicolon at the end */
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.reset-button2 {
+    background-color: #f44336; 
+}
+
+.button:hover
+{
+    background-color: darkgray;
+}
+
+.button2:hover
+{
+    background-color: darkgray;
+}
+
+.reset-button:hover
+{
+    background-color: darkgray;
+}

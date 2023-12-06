@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Matematik Segitiga</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <center>
+        <h1>Welcome to Katik</h1>
+        <p>Annyeong Chingu, Selamat datang di Katik!</p>
+        <p>Katik adalah sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar. Yuk Cobain!</p>
+    </center>
+    <nav class="nama">
+        <div class="jessica">Jessica Immanuel (jessicapriscilla248@gmail.com)</div>
+    </nav>
+    <nav class="navbar">
+        <div class="segitiga">Segitiga</div>
+        <div class="jajargenjang">Jajar Genjang (on process)</div>
+    </nav>
+
+    <div class="luasjudul">
+        <h2>Luas Segitiga</h2>
+    </div>
+
+    <div class="luas">
+        <center><img src="segitiga.png" alt="Gambar 1" width="300" height="200"></center>
+        <p>Rumus Luas Segitiga yaitu :</p>
+        <center><p class="rumus"><b>L = 1/2 x a x t</b></p></center>
+        <p>Keterangan :</p>
+        <div class="poinKeterangan">
+            <p>L = Luas</p>
+            <p>a = Panjang Alas</p>
+            <p>t = Tinggi</p>
+        </div>    
+        
+    </div>
+    
+    <div class="small-line"></div>
+    
+    <div class="luas2">
+        <center><h2 class="judulHitung">Hitung Luas Segitiga</h2></center>
+        <form id="triangleForm">
+            <div class="base">
+                <input type="number" id="alas" name="alas" placeholder="Masukkan alas..." required>
+            </div>
+    
+            <div class="height">
+                <input type="number" id="tinggi" name="tinggi" placeholder="Masukkan tinggi..." required>
+            </div>
+    
+            <button type="button" onclick="calculateLuas()" class="button">Hitung</button>
+            <button type="button" onclick="resetFormLuas()" class="button reset-button">Reset</button>
+        </form>
+    
+        <div id="resultDetailsLuas"></div>
+        <p id="resultLuas"></p>
+    </div>
+    
+    
+
+
+
+    <div class="kelilingjudul">
+        <h2>Keliling Segitiga</h2>
+    </div>
+
+    <div class="keliling">
+        <center><img src="segitiga.png" alt="Gambar 1" width="300" height="200"></center>
+        <p>Rumus Keliling Segitiga yaitu :</p>
+        <center><p class="rumusKeliling"><b>K = S1 + S2 + S3</b></p></center>
+        <p>Keterangan :</p>
+        <div class="poinKeterangan2">
+            <p>K = Keliling</p>
+            <p>S1 = A</p>
+            <p>S2 = B</p>
+            <p>S3 = C</p>
+        </div>    
+        
+    </div>
+    
+    <div class="small-line"></div>
+    
+    <div class="luas3">
+        <center><h2 class="judulHitung2">Hitung Keliling Segitiga</h2></center>
+        <form id="triangleForm2">
+            <div class="a">
+                <input type="number" id="a" name="a" placeholder="Masukkan A..." required>
+            </div>
+    
+            <div class="b">
+                <input type="number" id="b" name="b" placeholder="Masukkan B..." required>
+            </div>
+    
+            <div class="c">
+                <input type="number" id="c" name="c" placeholder="Masukkan C..." required>
+            </div>
+    
+            <button type="button" onclick="calculateKeliling()" class="button2">Hitung</button>
+            <button type="button" onclick="resetFormKeliling()" class="button reset-button2">Reset</button>
+        </form>
+    
+        <div id="resultDetailsKeliling"></div>
+        <p id="resultKeliling"></p>
+    </div>
+
+    <nav class="nama">
+        <div class="jessica">Jessica Immanuel (jessicapriscilla248@gmail.com)</div>
+    </nav>
+
+</body>
+</html>
